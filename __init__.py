@@ -22,4 +22,4 @@
 Promotions for Open ERP Sales
 ** Inspired by Magento **
 """
-from models import rules, sale
+from models import rules, sale, product

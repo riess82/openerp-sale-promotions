@@ -1,210 +1,213 @@
 # Translation of OpenERP Server.
 # This file contains the translation of the following modules:
-#	* openerp_sale_promotions_2_7
+# 	* openerp_sale_promotions_2_7
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: OpenERP Server 7.0-623c425\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-09 14:43+0000\n"
-"PO-Revision-Date: 2015-03-09 14:43+0000\n"
+"POT-Creation-Date: 2015-03-09 14:45+0000\n"
+"PO-Revision-Date: 2015-03-09 15:56+0100\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: \n"
+"X-Generator: Poedit 1.5.7\n"
 
 #. module: openerp_sale_promotions_2_7
 #: view:promos.rules:0
 msgid "expressions are"
-msgstr ""
+msgstr "Ausdrücke sind"
 
 #. module: openerp_sale_promotions_2_7
 #: help:product.product,promotion:0
-msgid "This product is used in conjunction with promotion codes. Not to be used in regular Sales."
+msgid ""
+"This product is used in conjunction with promotion codes. Not to be used in "
+"regular Sales."
 msgstr ""
+"Dieses Produkt wir in Verbindung mit Gutschein-Codes. Nicht zur Verwendung "
+"im regulären Verkauf."
 
 #. module: openerp_sale_promotions_2_7
 #: model:ir.actions.act_window,name:openerp_sale_promotions_2_7.act_promotion_rules
 #: model:ir.model,name:openerp_sale_promotions_2_7.model_promos_rules
 #: model:ir.ui.menu,name:openerp_sale_promotions_2_7.promos
 msgid "Promotion Rules"
-msgstr ""
+msgstr "Promotion Regeln"
 
 #. module: openerp_sale_promotions_2_7
 #: view:sale.order:0
 msgid "[('promotion','=',False)]"
-msgstr ""
+msgstr "[('promotion','=',False)]"
 
 #. module: openerp_sale_promotions_2_7
 #: view:promos.rules:0
 msgid "Applicable Period"
-msgstr ""
+msgstr "Zulässige Periode"
 
 #. module: openerp_sale_promotions_2_7
 #: model:ir.model,name:openerp_sale_promotions_2_7.model_promos_rules_conditions_exps
 msgid "Expressions for conditions"
-msgstr ""
+msgstr "Ausdrücke für Konditionen"
 
 #. module: openerp_sale_promotions_2_7
 #: code:addons/openerp_sale_promotions_2_7/models/rules.py:62
 #, python-format
 msgid "not equal to"
-msgstr ""
+msgstr "nicht gleich"
 
 #. module: openerp_sale_promotions_2_7
 #: code:addons/openerp_sale_promotions_2_7/models/rules.py:64
 #, python-format
 msgid "greater than or equal to"
-msgstr ""
+msgstr "größer oder gleich als"
 
 #. module: openerp_sale_promotions_2_7
 #: field:product.product,promotion:0
 msgid "Promotion Product"
-msgstr ""
+msgstr "Promotion Produkt"
 
 #. module: openerp_sale_promotions_2_7
 #: view:promos.rules:0
 msgid "Conditions"
-msgstr ""
+msgstr "Konditionen"
 
 #. module: openerp_sale_promotions_2_7
 #: model:ir.model,name:openerp_sale_promotions_2_7.model_product_product
 msgid "Product"
-msgstr ""
+msgstr "Produkt"
 
 #. module: openerp_sale_promotions_2_7
 #: view:promos.rules:0
 msgid "Description"
-msgstr ""
+msgstr "Beschreibung"
 
 #. module: openerp_sale_promotions_2_7
 #: code:addons/openerp_sale_promotions_2_7/models/rules.py:74
 #, python-format
 msgid "Discount % on Sub Total"
-msgstr ""
+msgstr "Rabatt % auf Auftragssumme"
 
 #. module: openerp_sale_promotions_2_7
 #: view:promos.rules:0
 msgid "Coupon/Voucher Settings"
-msgstr ""
+msgstr "Gutschein Einstellungen"
 
 #. module: openerp_sale_promotions_2_7
 #: view:promos.rules:0
 msgid "Promotions"
-msgstr ""
+msgstr "Promotions"
 
 #. module: openerp_sale_promotions_2_7
 #: code:addons/openerp_sale_promotions_2_7/models/rules.py:76
 #, python-format
 msgid "Buy X get Y free"
-msgstr ""
+msgstr "Kaufe X bekomme Y gratis"
 
 #. module: openerp_sale_promotions_2_7
 #: code:addons/openerp_sale_promotions_2_7/models/rules.py:61
 #, python-format
 msgid "equals"
-msgstr ""
+msgstr "gleich"
 
 #. module: openerp_sale_promotions_2_7
 #: code:addons/openerp_sale_promotions_2_7/models/rules.py:63
 #, python-format
 msgid "greater than"
-msgstr ""
+msgstr "größer als"
 
 #. module: openerp_sale_promotions_2_7
 #: code:addons/openerp_sale_promotions_2_7/models/rules.py:68
 #, python-format
 msgid "is not in"
-msgstr ""
+msgstr "ist nicht in"
 
 #. module: openerp_sale_promotions_2_7
 #: view:promos.rules:0
 msgid "Partner Categories"
-msgstr ""
+msgstr "Partner Kategorien"
 
 #. module: openerp_sale_promotions_2_7
 #: model:ir.model,name:openerp_sale_promotions_2_7.model_promos_rules_actions
 msgid "Promotions actions"
-msgstr ""
+msgstr "Promotions Aktionen"
 
 #. module: openerp_sale_promotions_2_7
 #: code:addons/openerp_sale_promotions_2_7/models/rules.py:75
 #, python-format
 msgid "Fixed amount on Sub Total"
-msgstr ""
+msgstr "Fixer Betrag auf Auftragssumme"
 
 #. module: openerp_sale_promotions_2_7
 #: code:addons/openerp_sale_promotions_2_7/models/rules.py:66
 #, python-format
 msgid "less than or equal to"
-msgstr ""
+msgstr "kleiner oder gleich als"
 
 #. module: openerp_sale_promotions_2_7
 #: code:addons/openerp_sale_promotions_2_7/models/rules.py:77
 #, python-format
 msgid "Buy X and add Z Promotion Product to Card"
-msgstr ""
+msgstr "Kaufe X und bekomme Z Promotion Produkt in Auftrag"
 
 #. module: openerp_sale_promotions_2_7
 #: code:addons/openerp_sale_promotions_2_7/models/rules.py:73
 #, python-format
 msgid "Fixed amount on Product"
-msgstr ""
+msgstr "Fixer Betrag auf Produkt"
 
 #. module: openerp_sale_promotions_2_7
 #: code:addons/openerp_sale_promotions_2_7/models/rules.py:67
 #, python-format
 msgid "is in"
-msgstr ""
+msgstr "ist in"
 
 #. module: openerp_sale_promotions_2_7
 #: code:addons/openerp_sale_promotions_2_7/models/rules.py:65
 #, python-format
 msgid "less than"
-msgstr ""
+msgstr "kleiner als"
 
 #. module: openerp_sale_promotions_2_7
 #: view:promos.rules:0
 msgid "Actions"
-msgstr ""
+msgstr "Aktionen"
 
 #. module: openerp_sale_promotions_2_7
 #: model:ir.model,name:openerp_sale_promotions_2_7.model_sale_order_line
 msgid "Sales Order Line"
-msgstr ""
+msgstr "Auftragsposition"
 
 #. module: openerp_sale_promotions_2_7
 #: code:addons/openerp_sale_promotions_2_7/models/rules.py:72
 #, python-format
 msgid "Discount % on Product"
-msgstr ""
+msgstr "Rabatt % auf Produkt"
 
 #. module: openerp_sale_promotions_2_7
 #: code:addons/openerp_sale_promotions_2_7/models/rules.py:42
 #, python-format
 msgid "Untaxed Total"
-msgstr ""
+msgstr "Auftragssumme vor Steuer"
 
 #. module: openerp_sale_promotions_2_7
-#: view:promos.rules:0
-#: view:promos.rules.conditions.exps:0
+#: view:promos.rules:0 view:promos.rules.conditions.exps:0
 msgid "Expressions"
-msgstr ""
+msgstr "Ausdrücke"
 
 #. module: openerp_sale_promotions_2_7
 #: model:ir.model,name:openerp_sale_promotions_2_7.model_sale_order
 msgid "Sales Order"
-msgstr ""
+msgstr "Verkaufsauftrag"
 
 #. module: openerp_sale_promotions_2_7
 #: view:sale.order:0
 msgid "Apply Promotions"
-msgstr ""
+msgstr "Promotion anwenden"
 
 #. module: openerp_sale_promotions_2_7
 #: view:promos.rules:0
 msgid "If"
-msgstr ""
-
+msgstr "wenn"

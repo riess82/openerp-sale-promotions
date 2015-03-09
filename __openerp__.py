@@ -29,6 +29,7 @@
     'depends' : [
                  "base",
                  "sale",
+                 "product",
                  ],
     'init_xml' : [],
     'demo_xml' : [],
@@ -43,11 +44,16 @@
         This design is based/inspired by the Magento commerce
         Special Thanks to Yannick Buron for analysis
         Migration Module OpenERP 6: Zikzakmedia
+	ENHANCEMENTS / CHANGES:
+		Add Checkbox to Product view "Promotion Product". These are not selectable in Sales Order Form and should only be added through the Promotion Module.
+		Disabled Discount on Total because it now works without inserting a product, resulting it being impossible to invoice (product has info on tax and accounting).
+		Add Action "Buy X get Z Promotion Product"
     """,
     'update_xml': [
         'security/ir.model.access.csv',
         'views/rule.xml',
         'views/sale.xml',
+        'views/product.xml',
                 ],
     'installable': True,
     'active': False,

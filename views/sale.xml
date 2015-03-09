@@ -9,6 +9,10 @@
                 <xpath expr="/form/sheet/notebook/page[@string='Other Information']" position="inside">
                     <label for='coupon_code' />
                     <field name='coupon_code' attrs="{'readonly':[('state','!=','draft')]}" />
+					<button name="apply_promotions" type="object" states="draft" string="Apply Promotions" />
+                </xpath>
+                <xpath expr="/form/sheet/notebook/page[@string='Order Lines']/field[@name='order_line']/form/group/group/field[@name='product_id']" position="attributes">
+                    <attribute name="domain">[('promotion','=',False)]</attribute>
                 </xpath>
             </field>
         </record>
@@ -20,7 +24,7 @@
             <field name="arch" type="xml">
                 <xpath expr="/form/header/button[@name='action_button_confirm']" position="after">
                     <group colspan="4" col="13">
-                        <button name="apply_promotions" type="object" states="draft" string="Apply Promotions" />
+                        <!--<button name="apply_promotions" type="object" states="draft" string="Apply Promotions" />-->
                     </group>
                 </xpath>
             </field>
