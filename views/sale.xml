@@ -8,8 +8,8 @@
             <field name="arch" type="xml">
                 <xpath expr="/form/sheet/notebook/page[@string='Other Information']" position="inside">
                     <label for='coupon_code' />
-                    <field name='coupon_code' attrs="{'readonly':[('state','!=','draft')]}" />
-					<button name="apply_promotions" type="object" states="draft" string="Apply Promotions" />
+                    <field name='coupon_code' attrs="{'readonly':[('state','not in',('draft','sent'))]}" />
+					<button name="apply_promotions" type="object" states="draft,sent" string="Apply Promotions" />
                 </xpath>
                 <xpath expr="/form/sheet/notebook/page[@string='Order Lines']/field[@name='order_line']/form/group/group/field[@name='product_id']" position="attributes">
                     <attribute name="domain">[('promotion','=',False)]</attribute>

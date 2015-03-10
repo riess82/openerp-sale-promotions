@@ -47,7 +47,8 @@
 	ENHANCEMENTS / CHANGES:
 		Add Checkbox to Product view "Promotion Product". These are not selectable in Sales Order Form and should only be added through the Promotion Module.
 		Disabled Discount on Total because it now works without inserting a product, resulting it being impossible to invoice (product has info on tax and accounting).
-		Add Action "Buy X get Z Promotion Product"
+		Add Action "Buy X get Z Promotion Product": If Product is found in Cart then 1 piece of Promotion Product is added to cart.
+		Changed Permissions to Allow everything for all Sales people. not good!
     """,
     'update_xml': [
         'security/ir.model.access.csv',
