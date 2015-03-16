@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenERP Server 7.0-623c425\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-09 14:43+0000\n"
-"PO-Revision-Date: 2015-03-09 14:43+0000\n"
+"POT-Creation-Date: 2015-03-10 16:43+0000\n"
+"PO-Revision-Date: 2015-03-10 16:43+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #. module: openerp_sale_promotions_2_7
 #: help:product.product,promotion:0
-msgid "This product is used in conjunction with promotion codes. Not to be used in regular Sales."
+msgid "This product is used in conjunction with promtion codes. Not to be used in regular Sales."
 msgstr ""
 
 #. module: openerp_sale_promotions_2_7
